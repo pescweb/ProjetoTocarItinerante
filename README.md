@@ -1,2 +1,2 @@
-# CamacariTur
-Camaçari: sua historia, seu comercio e seu turismo
+# Projeto Tocar Itinerante
+O Projeto sendo desenvolvido desde 2013
