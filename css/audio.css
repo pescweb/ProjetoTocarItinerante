@@ -1,0 +1,69 @@
+/*Generic page style*/
+
+        body{
+            margin:0;
+            background: #ffc000;
+            font:normal 16px/20px Lekton, sans-serif;
+        }
+
+        #wrapper{
+            position:absolute;
+            padding:100px 50px;
+            width:80%;
+            min-height: 100%;
+            margin-left: 10% ;
+            top:0;
+            background: #e8e8e8;
+
+            font:normal 16px/20px Lekton, sans-serif;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-shadow: 0 0 10px rgba(0,0,0,0.4);
+        }
+
+        .wrapper h1{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:26px;
+        }
+
+        button{
+            padding:3px;
+            display:inline-block;
+            cursor:pointer;
+            font:16px/18px Arial, Helvetica, sans-serif;
+            color:#fff;
+            background-color:#ccc;
+            border-radius:5px;
+            box-shadow:#999 1px 1px 3px;
+            border:1px solid white;
+            text-shadow: 1px -1px 2px #aaa9a9 !important;
+        }
+
+        button:hover{
+            color:#666;
+        }
+
+        hr{
+            border:none;
+            background-color:#ccc;
+            height:1px;
+        }
+
+        .wrapper span.param{
+            font:normal 13px/15px Lekton, sans-serif;
+            color:#767676;
+            display: block;
+            margin-top: 10px;
+        }
+
+        .attribution {
+            font-size: 12px;
+            margin-top: 10px;
+            color: #868686;
+        }
+
+        .attribution a{
+            color: #868686;
+        }
+
+    .style1 {color: #FFFFFF}

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!--HTML5 doctype-->
+<html>
+<head>
+    <title>Projeto Tocar Itinerante</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="stylesheet" type="text/css" href="lib/appframework/icons.css" />
+    <link rel="stylesheet" type="text/css" href="lib/appframework/af.ui.css" />
+    <link rel="stylesheet" href="css/player.css" /> <!---linkando com a pasta de audio-->
+    <script type="text/javascript" src="Audio-HTML5.js"></script><!---linkando com a pasta de audio-->
+    <script type="text/javascript" charset="utf-8" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/fastclick.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/appframework/appframework.ui.min.js"></script>
+    <script src='cordova.js'></script>
+    <script type="text/javascript">
+    <link rel="stylesheet" href="style.css" media="screen">
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="style.responsive.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Alef|Alex+Brush&amp;subset=latin">
+
+   
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <script src="script.responsive.js"></script>
+    
+	<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lekton' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/jQuery.mb.miniAudioPlayer.min.css?_v= 1.8.3" title="style"  media="screen"/>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script type="text/javascript" src="jQuery.mb.miniAudioPlayer.js?_v= 1.8.3"></script>
+    <link rel="stylesheet" type="text/css" href="lib/appframework/icons.css" />
+    
+
+    <script type='text/javascript'>
+
+        $(function(){
+
+            var isIframe=function(){var a=!1;try{self.location.href!=top.location.href&&(a=!0)}catch(b){a=!0}return a};if(!isIframe()){var logo=$("<a href='#' style='position:absolute;top:0;z-index:1000'><img id='logo' border='0' src='images/slidecdavidniblackmusic1.jpg' alt='PescWeb'></a>");$("#wrapper").prepend(logo),$("#logo").fadeIn()}
+
+            if(jQuery.isAndroidDefault){
+                alert("Sorry, your browser does not support this implementation of the player. It will be used the standard HTML5 audio player instead")
+            }
+
+            $(".audio").mb_miniPlayer({
+                width:300,
+                inLine:false,
+                id3:true,
+                addShadow:false,
+                pauseOnWindowBlur: false,
+                downloadPage:null
+            });
+        });
+
+    </script>
+
+
+<style>.art-content .art-postcontent-0 .layout-item-0 { padding-right: 15px;padding-left: 10px;  }
+.ie7 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+.ie6 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+img{max-width:100%;	height:auto;}
+</style>
+    
+</head>
+
+<body>
+    <!----cabeçalho-->
+    <!----fim de cbeçalho-->
+
+<div id="splashscreen" class='ui-loader heavy'>
+        Projeto Tocar Itinerante
+        <br/>
+        <span class='ui-icon ui-icon-loading spin'></span>
+        <h1>Aguarde um momento</h1>
+</div>
+
+<div class="view"> <!---abertura do app-->
+        <header>
+            <h1>Projeto Tocar Itinerante</h1>
+        </header>
+<!---abertura das Páginas-->
+<div class="pages">
+
+            <!--Tab View Pages-->
+			<!---Página inico pagina 1-->
+
+<div class="panel" data-title="Projeto Tocar" id="tab1" data-selected="true">
+            <!---Página 1 frente-->
+
+<img src="images/logo.jpg" />
+                
+<div style="text-align: center;">
+<p><i class="fa fa-thumbs-up" aria-hidden="true"><span style="font-weight: bold; color: #ccc;">A sua Colaboração é muito importante para continuidade do Projeto</span></i></p>
+<p><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="4FP4Q3ZVX7CKC">
+<input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
+</form>
+</p>
+<p>Projeto Tocar Itinerante<a href="http://projetotocar.pescweb.com"> Acesse</a></p>
+    <p>Um Projeto SocioCultural Miro Baía</p>    
+	<p><i class="fa fa-thumbs-up" aria-hidden="true"><span style="font-weight: bold; color: #ccc;">Parceiros do Projeto</span></i></p>
+    <img src="images/parceiros.gif" />
+<p style="text-align: center;">
+<i class="fa fa-facebook fa-2x" aria-hidden="true"><a href="https://www.facebook.com/groups/1790128907935692/"></a></i>
+<i class="fa fa-twitter fa-2x" aria-hidden="true"><a href="#"></a></i>
+<i class="fa fa-paypal fa-2x" aria-hidden="true"><a href="#"></a></i><p/>
+<p>Copyrigth 2016 PescWeb - Miro Baía</p>
+</div>
+</div>
+<!---Fechamento Página 1-->
+<!---Inico Página 2 Afinador-->
+    
+<div class="panel" data-title="Afinador" id="tab2" >
+   <img src="images/braco.jpg" />
+    <p>A importância de trabalhar com Afinador Analógico é apurar a audição para distinguir a Afinação do Violão</p>
+       
+									<hr align="center">
+	   <div align="center"><a id="m1" class="audio {ogg:'audio/allegro.ogg', loop:true, inLine:true, downloadable:true}" href="afinador/mi.mp3" name="m1">6a Corda - E</a>
+         <button onclick="$('#m1').mb_miniPlayer_play()">Tocar</button>
+         <button onclick="$('#m1').mb_miniPlayer_stop()">Parar</button>
+        <br>
+         <span class="param">6ª Corda -&gt; E</span>
+        </div>
+        <hr align="center">
+									<hr align="center">         
+<div align="center">
+		<a id="m2" class="audio {ogg:'audio/allegro.ogg',skin:'orange', showTime:false, loop:true, inLine:true, downloadable:true}" href="afinador/la.mp3" name="m2">5ª Corda - A</a> 
+         <button onclick="$('#m2').mb_miniPlayer_play()">Tocar</button>
+         <button onclick="$('#m2').mb_miniPlayer_stop()">Parar</button>
+        <br/>
+         <span class="param">5ª Corda -&gt; A</span>
+</div>
+									<hr align="center">
+         
+<div align="center">
+		<a id="m3" class="audio {ogg:'audio/allegro.ogg',skin:'blue', autoPlay:false,showRew:false, loop:true, inLine:true, downloadable:true}" href="afinador/re.mp3" name="m3">4ª Corda - D</a>
+         <button onclick="$('#m3').mb_miniPlayer_play()">Tocar</button>
+         <button onclick="$('#m3').mb_miniPlayer_stop()">Parar</button>
+        <br>
+         <span class="param">4ª Corda -&gt; D</span>
+</div>
+									<hr align="center">
+         
+<div align="center">
+		<a id="m4" class="audio {ogg:'audio/allegro.ogg',skin:'red', autoPlay:false,showRew:false, showTime:false,loop:true, inLine:true, downloadable:true}" href="afinador/sol.mp3" name="m4">3ª Corda - G</a>
+         <button onclick="$('#m4').mb_miniPlayer_play()">Tocar</button>
+         <button onclick="$('#m4').mb_miniPlayer_stop()">Parar</button>
+        <br>
+         <span class="param">3ª Corda -&gt; G</span>
+</div>
+									<hr align="center">
+         
+<div align="center">
+		<a id="m5" class="audio {ogg:'audio/allegro.ogg',skin:'green', autoPlay:false,showRew:false, showTime:false,loop:true, inLine:true, downloadable:true}" href="afinador/si.mp3" name="m5">2ª Corda - B</a>
+         <button onclick="$('#m5').mb_miniPlayer_play()">Tocar</button>
+         <button onclick="$('#m5').mb_miniPlayer_stop()">Parar</button>
+        <br/>
+         <span class="param">2ª Corda -&gt; B</span>
+</div>
+									<hr align="center">
+         
+<div align="center">
+		<a id="m6" class="audio {ogg:'audio/allegro.ogg',skin:'black', autoPlay:false,showRew:false, showTime:false,loop:true, inLine:true, downloadable:true}" href="afinador/mizinho.mp3" name="m6">1ª Corda - E</a>
+         <button onclick="$('#m6').mb_miniPlayer_play()">Tocar</button>
+         <button onclick="$('#m6').mb_miniPlayer_stop()">Parar</button>
+        <br>
+         <span class="param">1ª Corda -&gt; E</span>
+</div>
+									<hr align="center">
+<div style="text-align: center;">
+<p><i class="fa fa-thumbs-up" aria-hidden="true"><span style="font-weight: bold; color: #ccc;">A sua Colaboração é muito importante para continuidade do Projeto</span></i></p>
+<p><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="4FP4Q3ZVX7CKC">
+<input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
+</form>
+</p>
+<p>Projeto Tocar Itinerante<a href="http://projetotocar.pescweb.com"> Acesse</a></p>
+    <p>Um Projeto SocioCultural Miro Baía</p>    
+<p style="text-align: center;">
+<i class="fa fa-facebook fa-2x" aria-hidden="true"><a href="https://www.facebook.com/groups/1790128907935692/"></a></i>
+<i class="fa fa-twitter fa-2x" aria-hidden="true"><a href="#"></a></i>
+<i class="fa fa-paypal fa-2x" aria-hidden="true"><a href="#"></a></i><p/><p/>
+<p>Copyrigth 2016 PescWeb - Miro Baía</p>
+</div>
+</div>
+<!---Final Página 2 Afinador-->
+<!---Inicio Página 3 Vocalização-->
+    
+<div class="panel" data-title="Vocalização" id="tab3">
+              
+<img src="images/logo.jpg" />
+    <!-- START SOUND CODE V3.15  -->
+<div style="text-align: center;">
+<script type="text/javascript">
+
+// PLAYER VARIABLES
+
+var mp3snd = "Audio-HTML5-code/audio-file.mp3";
+var bkcolor = "000000";
+
+if ( navigator.userAgent.toLowerCase().indexOf( "msie" ) != -1 ) {
+document.write('<bgsound src="'+mp3snd+'" loop="1">');
+}
+else if ( navigator.userAgent.toLowerCase().indexOf( "firefox" ) != -1 ) {
+document.write('<object data="'+mp3snd+'" type="application/x-mplayer2" width="0" height="0">');
+document.write('<param name="filename" value="'+mp3snd+'">');
+document.write('<param name="autostart" value="1">');
+document.write('</object>');
+}
+else {
+document.write('<audio src="'+mp3snd+'" autoplay="autoplay">');
+document.write('<object data="'+mp3snd+'" type="application/x-mplayer2" width="0" height="0">');
+document.write('<param name="filename" value="'+mp3snd+'">');
+document.write('<param name="autostart" value="1">');
+document.write('<embed height="2" width="2" src="'+mp3snd+'" pluginspage="http://www.apple.com/quicktime/download/" type="video/quicktime" controller="false" controls="false" autoplay="true" autostart="true" loop="false" bgcolor="#'+bkcolor+'"><br>');
+document.write('</embed></object>');
+document.write('</audio>');
+}
+
+</script>
+<br/>
+</div>
+<!-- END SOUND CODE V3.15 -->
+
+    <p align="justify">A Vocalização serve para quem quer aprender a cantar e distinguir a notação da voz trabalhando a altura da sequencia dos acordes, cante as notas como se tivesse subindo uma escada </p>
+	<p align="center">AQUECIMENTO VOCAL:</p>
+
+<p align="justify">O aquecimento vocal deve ser feito antes de cantar. Exercícios respiratórios também podem ser feitos e ajudam muito no controle da respiração. Realize os exercícios abaixo lembrando-se de manter a respiração diafragmática.
+
+1) Relaxamento:
+- Circular a cabeça para a Direita e para a esquerda
+- Circular a cabeça para os lados, para cima e para baixo
+- Fazer caretas procurando utilizar todos os músculos do rosto
+- Articular A/E/I/O/U, forçando o diafragma e anasalando as expressões
+Obs. De forma suave, com baixa intensidade. 
+ME - TRÚ - VÊ - JÊ - QUE - GUE - ZÊ - BRÊ</p>
+	
+	<p align="center">TRABALHANDO O TIMBRE DA VOZ:</p>
+
+<p align="justify">Comece com o tom grave na voz e baixando o agudo e assim conseqüentemente torna-se mais baixo, acompanhe a nota DÓ maior com a voz com um longo DÓOOOO e em seguida, aumente sucessivamente as notas de toda a escala simples, como se tivesse subindo uma escada, a cada exercicio inspire e respire</p>
+       
+									<hr align="center">         
+<div align="center">
+		<a id="m7" class="audio {ogg:'audio/allegro.ogg',skin:'orange', showTime:false, loop:true, inLine:true, downloadable:true}" href="afinador/vocalizacao.mp3" name="m7">Comece Cantando - Dó</a> 
+         <button onclick="$('#m7').mb_miniPlayer_play()">Cantar</button>
+         <button onclick="$('#m7').mb_miniPlayer_stop()">Parar</button>
+        <br/>
+         <span class="param">C - D - E - F - G - A - B - C</span>
+</div>
+									<hr align="center">
+         
+
+<div style="text-align: center;">
+<p><i class="fa fa-thumbs-up" aria-hidden="true"><span style="font-weight: bold; color: #ccc;">A sua Colaboração é muito importante para continuidade do Projeto</span></i></p>
+<p><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="4FP4Q3ZVX7CKC">
+<input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
+</form></p>
+<p>Projeto Tocar Itinerante<a href="http://projetotocar.pescweb.com"> Acesse</a></p>
+    <p>Um Projeto SocioCultural Miro Baía</p>    
+<p style="text-align: center;">
+<i class="fa fa-facebook fa-2x" aria-hidden="true"><a href="https://www.facebook.com/groups/1790128907935692/"></a></i>
+<i class="fa fa-twitter fa-2x" aria-hidden="true"><a href="#"></a></i>
+<i class="fa fa-paypal fa-2x" aria-hidden="true"><a href="#"></a></i><p/><p/>
+<p>Copyrigth 2016 PescWeb - Miro Baía</p>
+</div>
+</div>
+<!---Final Página 3 Vocalização-->
+<!---Inicio Página 4 O Projeto-->
+<div class="panel" data-title="Notas Musicais" id="tab4">
+ <img src="images/header.jpg" />
+    
+    <p align="justify">Notas musicais são sinais gráfico e sonoros que foram criados para representar as variações da altura do som musical; ou seja, organizar a linguagem musical e facilitar a composição de melodias. Existem sete notas musicais: Dó, Ré, Mi, Fá, Sol, Lá, Si</p>
+    
+    <p align="justify">Notas Maiores C D E F G A B</p>
+    <img src="images/acordes-maiores.jpg" />
+    <p align="justify">Notas Menores Cm Dm Em Fm Gm Am Bm</p>
+    <img src="images/acordes-menores.jpg" />
+    <p align="justify">Notas Sétimas C7 D7 E7 F7 G7 A7 B7</p>
+    <img src="images/acordes-setimas-maiores.jpg" />
+    <p align="justify">Notas Sétimas Cm7 Dm7 Em7 Fm7 Gm7 Am7 Bm7</p>
+    <img src="images/acordes-setimas-menores.jpg" />
+<div style="text-align: center;">
+<p><i class="fa fa-thumbs-up" aria-hidden="true"><span style="font-weight: bold; color: #ccc;">A sua Colaboração é muito importante para continuidade do Projeto</span></i></p>
+<p><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="4FP4Q3ZVX7CKC">
+<input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
+</form></p>
+<p>Projeto Tocar Itinerante<a href="http://projetotocar.pescweb.com"> Acesse</a></p>
+    <p>Um Projeto SocioCultural Miro Baía</p>    
+<p style="text-align: center;">
+<i class="fa fa-facebook fa-2x" aria-hidden="true"><a href="https://www.facebook.com/groups/1790128907935692/"></a></i>
+<i class="fa fa-twitter fa-2x" aria-hidden="true"><a href="#"></a></i>
+<i class="fa fa-paypal fa-2x" aria-hidden="true"><a href="#"></a></i><p/><p/>
+<p>Copyrigth 2016 PescWeb - Miro Baía</p>
+</div>
+
+</div><!---Final Página 4 O Projeto-->
+
+
+ </div> <!---fechamento das Páginas-->
+<!---Rodapé-->
+ <footer> 
+            <a href="#tab1" class="icon home" onclick="$.afui.clearHistory()">Home</a>
+            <a href="#tab2" class="icon headset" onclick="$.afui.clearHistory()">Afinador</a>
+            <a href="#tab3" class="icon mic" onclick="$.afui.clearHistory()">Vocalização</a>
+            <a href="#tab4" class="icon stack" onclick="$.afui.clearHistory()">Notas</a>
+            <p class="art-page-footer">
+        <p><span id="art-footnote-links">Design by <a href="http://pescweb.com" target="_blank">Miro Baia</a></span>
+    </p>
+ </footer>
+ </div><!---fechamento do app-->
+ </div>
+</body>
+</html>
