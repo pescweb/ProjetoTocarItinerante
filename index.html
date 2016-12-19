@@ -69,8 +69,8 @@ img{max-width:100%;	height:auto;}
 </head>
 
 <body>
-    <!----cabeçalho-->
-    <!----fim de cbeçalho-->
+    <!--cabeçalho-->
+    <!--fim de cbeçalho-->
 
 <div id="splashscreen" class='ui-loader heavy'>
         Projeto Tocar Itinerante
@@ -114,8 +114,8 @@ img{max-width:100%;	height:auto;}
 <p>Copyrigth 2016 PescWeb - Miro Baía</p>
 </div>
 </div>
-<!---Fechamento Página 1-->
-<!---Inico Página 2 Afinador-->
+<!--Fechamento Página 1-->
+<!--Inico Página 2 Afinador-->
     
 <div class="panel" data-title="Afinador" id="tab2" >
    <img src="images/braco.jpg" />
@@ -314,6 +314,26 @@ ME - TRÚ - VÊ - JÊ - QUE - GUE - ZÊ - BRÊ</p>
  </div> <!---fechamento das Páginas-->
 <!---Rodapé-->
  <footer> 
+	 function onDeviceReady() {
+      document.removeEventListener('deviceready', onDeviceReady, false);
+      
+      // Set AdMobAds options: 
+      admob.setOptions({
+        publisherId:          "ca-app-pub-8613086499405343~9958833704",  // Required 
+        interstitialAdId:     "ca-app-pub-8613086499405343~9958833704",  // Optional 
+        tappxIdiOS:           "/XXXXXXXXX/Pub-XXXX-iOS-IIII",            // Optional 
+        tappxIdAndroid:       "/XXXXXXXXX/Pub-XXXX-Android-AAAA",        // Optional 
+        tappxShare:           0.5                                        // Optional 
+      });
+      
+      // Start showing banners (atomatic when autoShowBanner is set to true) 
+      admob.createBannerView();
+      
+      // Request interstitial (will present automatically when autoShowInterstitial is set to true) 
+      admob.requestInterstitialAd();
+    }
+    
+    document.addEventListener("deviceready", onDeviceReady, false);
             <a href="#tab1" class="icon home" onclick="$.afui.clearHistory()">Home</a>
             <a href="#tab2" class="icon headset" onclick="$.afui.clearHistory()">Afinador</a>
             <a href="#tab3" class="icon mic" onclick="$.afui.clearHistory()">Vocalização</a>
